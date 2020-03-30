@@ -15,7 +15,7 @@ const App = () => {
       />
       <Contact
         avatar="https://randomuser.me/api/portraits/women/38.jpg"
-        name="AAnna Price"
+        name="Anna Price"
         online
       />
     </div>
