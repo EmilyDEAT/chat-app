@@ -1,12 +1,27 @@
 import React from "react";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Contact />
+      <Contact
+        avatar="https://randomuser.me/api/portraits/men/18.jpg"
+        name="Alvin Hunt"
+        online
+      />
+      <Contact
+        avatar="https://randomuser.me/api/portraits/men/23.jpg"
+        name="Tim Olivier"
+      />
+      <Contact
+        avatar="https://randomuser.me/api/portraits/women/38.jpg"
+        name="AAnna Price"
+        online
+      />
     </div>
   );
-}
+};
+
+
 
 export default App;
